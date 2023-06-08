@@ -8,12 +8,12 @@ Original file is located at
 """
 
 import streamlit as st
-#import numpy as np
+import numpy as np
 import pandas as pd
-#import plotly as px
-#import plotly.figure_factury as ff
-#from brokeh.plotting import figure
-#import matplotlib.pyplot as plt
+import plotly as px
+import plotly.figure_factury as ff
+from brokeh.plotting import figure
+import matplotlib.pyplot as plt
 
 st.title('Police Incidents Reports from 2018 to 2020 in San Francisco')
 df = pd.read_csv('Police_Department_Incident_Reports__2018_to_Present.csv')
